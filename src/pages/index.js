@@ -1,21 +1,42 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
+import { ThemeProvider } from "styled-components"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import FullPage from "../components/fullpage"
+import {theme} from "../assets/styles/cssVariables"
+
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  <div>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Sean's Website</title>
+      <link
+        href="https://fonts.googleapis.com/css?family=Roboto|Space+Mono&display=swap"
+        rel="stylesheet"
+      ></link>
+      <script
+        src="https://kit.fontawesome.com/a9a21b29b4.js"
+        crossorigin="anonymous"
+      ></script>
+    </Helmet>
+    <ThemeProvider theme={theme}>
+      <FullPage
+        name="Sean Mowrey"
+        words={[
+          "develop",
+          "create",
+          "play hockey",
+          "volunteer",
+          "eat sushi",
+          "learn",
+          "sleep",
+          "build lego",
+          "hike",
+        ]}
+      />
+    </ThemeProvider>
+  </div>
 )
 
 export default IndexPage
