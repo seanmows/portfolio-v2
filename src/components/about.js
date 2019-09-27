@@ -13,6 +13,9 @@ const Slate = styled.div`
 const TitleText = styled.h3`
   color: red;
   font-size: 2em;
+  @media (max-width: ${props => props.theme.small}) {
+    padding-top: 30px;
+  }
 `
 const Text = styled.div`
   color: black;
@@ -49,6 +52,7 @@ const HeroImg = styled.img`
     filter: blur(2px);
   }
   @media (max-width: ${props => props.theme.medium}) {
+    max-height: 200px;
     max-width: 200px;
     width: auto;
     height: auto;

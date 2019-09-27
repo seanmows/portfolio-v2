@@ -42,7 +42,7 @@ class ExperienceSection extends React.Component {
             title="Toronto Water"
             link="https://www.toronto.ca/services-payments/water-environment/"
             timeperiod="January 2018 - May 2018"
-            subtitle="Worked in Capital Works Delivery, helping to manage multi-million dollar projects on Water treatment or delivery infrastructure."
+            subtitle="Worked in Capital Works Delivery, helping to manage multi-million dollar projects on water treatment or delivery infrastructure."
           />
           <ExperienceUnit
             logo={scentualsLogo}
@@ -50,7 +50,7 @@ class ExperienceSection extends React.Component {
             title="Scentuals"
             link="https://www.scentuals.com/"
             timeperiod="June 2016- Present"
-            subtitle="Developed E-commerce websites as well as work on production line optimizing efficiency and commissioning automated machinery "
+            subtitle="Developed E-commerce websites as well as worked on production line optimizing efficiency and commissioning automated machinery. "
           />
           {/*}
           <ExperienceUnit

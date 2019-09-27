@@ -3,8 +3,7 @@ import { Helmet } from "react-helmet"
 import { ThemeProvider } from "styled-components"
 
 import FullPage from "../components/fullpage"
-import {theme} from "../assets/styles/cssVariables"
-
+import { theme } from "../assets/styles/cssVariables"
 
 const IndexPage = () => (
   <div>
