@@ -14,7 +14,7 @@ const TitleText = styled.h3`
   color: red;
   font-size: 2em;
   @media (max-width: ${props => props.theme.small}) {
-    padding-top: 30px;
+    padding-top: 40px;
   }
 `
 const Text = styled.div`
