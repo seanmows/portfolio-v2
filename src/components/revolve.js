@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const DoWord = styled.span`
-  color: red;
+  color: #f44336;
 `
 class Revolve extends React.Component {
   constructor(props) {

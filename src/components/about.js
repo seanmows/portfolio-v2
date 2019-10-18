@@ -11,7 +11,7 @@ const Slate = styled.div`
   padding: 5px;
 `
 const TitleText = styled.h3`
-  color: red;
+  color: #f44336;
   font-size: 2em;
   @media (max-width: ${props => props.theme.small}) {
     padding-top: 40px;
@@ -24,7 +24,7 @@ const Text = styled.div`
   width: 75%;
 
   a {
-    color: red;
+    color: #f44336;
     font-weight: 100;
     text-decoration: none;
   }
@@ -74,7 +74,7 @@ const About = () => (
       <a href="https://uwaterloo.ca/artificial-intelligence-institute/">
         Waterloo.AI
       </a>{" "}
-      insitute at the University of Waterloo. I have had 3 coops so far with my
+      institute at the University of Waterloo. I have had 3 coops so far with my
       last one being at EA Vancouver on the User Research team. In my spare time
       you can find me playing/watching hockey or eating sushi.
     </Text>
